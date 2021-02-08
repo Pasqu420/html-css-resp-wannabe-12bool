@@ -1,17 +1,16 @@
+/* generali */
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* BLOCCO LEZIONI */
 
-
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
 }
 
 #lezioni {
@@ -19,7 +18,6 @@
 }
 
 /* BLOCCO STEPS */
-
 
 #steps {
   text-align: center;
@@ -29,7 +27,6 @@
 #why {
   text-align: center;
 }
-
 
 #why .row img {
   background-color: #428bca;
@@ -45,4 +42,91 @@
 
 img {
   height: 200px;
+}
+
+ /* regole XS */
+@media all and (max-width: 767px){
+
+  /* blocco lezioni */
+  #lezioni .col-xs-12{
+    margin-top: 5%;
+  }
+
+  /* blocco steps  */
+  #steps h1{
+    padding-top: 3%;
+  }
+
+  #steps .col-xs-12{
+    margin-top: 10%;
+  }
+
+  /* blocco why */
+  #why h1{
+    padding-top: 3%;
+  }
+
+  #why .col-xs-12{
+    margin-top: 10%;
+  }
+
+  /* regole img */
+  img{
+    width: 30%;
+    height: auto;
+  }
+}
+
+  /* regole MD */
+@media all and (min-width: 768px) and (max-width: 991px){
+
+  /* blocco lezioni */
+  #lezioni .col-xs-12{
+    margin-top: 3%;
+  }
+
+  /* blocco steps  */
+  #steps h1{
+    padding-top: 3%;
+  }
+
+  #steps .col-xs-12{
+    margin-top: 8%;
+  }
+
+  /* blocco why */
+  #why h1{
+    padding-top: 3%;
+  }
+
+  #why .col-xs-12{
+    margin-top: 8%;
+  }
+}
+
+  /* regole LG */
+@media all and (min-width: 992px){
+
+  /* blocco lezioni */
+  #lezioni .col-xs-12{
+    margin-top: 3%;
+  }
+
+  /* blocco steps  */
+  #steps h1{
+    padding-top: 1.5%;
+  }
+
+  #steps .col-xs-12{
+    margin-top: 5%;
+  }
+
+  /* blocco why */
+  #why h1{
+    padding-top: 1.5%;
+  }
+
+  #why .col-xs-12{
+    margin-top: 5%;
+  }
 }

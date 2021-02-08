@@ -1,8 +1,8 @@
 /* regole generali */
 
 .container{
-  width: 1170px;
-  margin: 0 auto;
+  max-width: 1170px;
+  margin: auto;
 }
 
 .row::after{
