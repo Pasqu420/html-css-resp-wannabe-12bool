@@ -31,7 +31,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
@@ -74,6 +74,11 @@ img {
   img{
     width: 30%;
     height: auto;
+  }
+
+  #why .row img{
+    width: 40%;
+    padding: 10px;
   }
 }
 
